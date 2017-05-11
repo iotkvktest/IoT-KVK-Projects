@@ -1,10 +1,10 @@
-## Welcome to IoT OE-KVK projects site
+# Welcome to IoT OE-KVK projects site
 
 You can use the [editor on GitHub](https://github.com/iotkvktest/iotkvktest.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-Project pages
+## Project pages
 
 {% for repository in site.github.public_repositories %}
 {% if repository.name != "iotkvktest.github.io" %}
@@ -12,7 +12,7 @@ Project pages
 {% endif %}
 {% endfor %}
 
-Sources
+## Sources
 
 {% for repository in site.github.public_repositories %}
    [{{ repository.name }}]({{ repository.html_url }})
