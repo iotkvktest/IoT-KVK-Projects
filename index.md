@@ -6,7 +6,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 
 {% for repository in site.github.public_repositories %}
-  * [{{ repository.name }}]({{ repository.pages_hostname }})
+  * [{{ repository.name }}]({{ repository.url }})
 {% endfor %}
 
 {% for repository in site.github.public_repositories %}
