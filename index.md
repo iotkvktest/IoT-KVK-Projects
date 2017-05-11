@@ -7,7 +7,9 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 Project pages
 
 {% for repository in site.github.public_repositories %}
+{% if repository.name != "iotkvktest.github.io" %}
    [{{ repository.name }}]({{ /repository.name }})
+{% endif %}
 {% endfor %}
 
 Sources
