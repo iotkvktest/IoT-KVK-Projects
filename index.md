@@ -7,13 +7,13 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 Project pages
 
 {% for repository in site.github.public_repositories %}
-  * [{{ repository.name }}]({{ repository.name }})
+   [{{ repository.name }}]({{ repository.name }})
 {% endfor %}
 
 Sources
 
 {% for repository in site.github.public_repositories %}
-  * [{{ repository.name }}]({{ repository.html_url }})
+   [{{ repository.name }}]({{ repository.html_url }})
 {% endfor %}
 
 ### Markdown
